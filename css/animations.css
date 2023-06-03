@@ -1,0 +1,37 @@
+/* Створюємо стилі для анімації */
+@keyframes inputAnimation {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: rgba(50, 50, 50, 0.15);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+/* Додаємо анімацію при натисканні на <input> */
+.input-animation {
+  animation-name: inputAnimation;
+  animation-duration: 0.3s;
+}
+
+/* Створюємо стилі для анімації */
+@keyframes onAddClickAnim {
+  0% {
+    background-color: #66cdaa;
+  }
+  50% {
+    background-color: #55bc99;
+  }
+  100% {
+    background-color: #66cdaa;
+  }
+}
+
+/* Додаємо анімацію при натисканні на <input> */
+.onAddClickAnimation {
+  animation-name: onAddClickAnim;
+  animation-duration: 0.3s;
+}

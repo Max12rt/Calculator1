@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animations.css">
+	<title>race00</title>
+</head>
+
+<body>
+	<h1 id="calcTitle">Calculator</h1>
+	<div id="calculator">
+		<!--<script type="text/javascript" src="js/script.js"></script>-->
+		<div id="calculations">
+			<input id="circleBtn" value="+" onclick="changeState()" type="button">
+			<div id="resultDisplay">result: </div>
+			<div id="historyDisplay">history: </div>
+			<div id="memoryDisplay">in memory: </div>
+		</div>
+		<div id="operationsContainer">
+		<table id="operations">
+			<tr>
+				<!--
+				<td class="additionalTd"><input value="√" onclick="handleButton('sqrt')" type="button"></td>
+				<td class="additionalTd"><input value="!" onclick="handleButton('!')" type="button"></td>
+				<td class="additionalTd"><input value="C" onclick="handleButton('C')" type="button"></td>
+			-->
+				<td><input value="AC" onclick="handleButton('AC')" type="button"></td>
+				<td><input value="+/-" onclick="handleButton('+/-')" type="button"></td>
+				<td><input value="%" onclick="handleButton('%')" type="button"></td>
+				<td><input value="÷" onclick="handleButton('/')" type="button"></td>
+			</tr>
+			<tr>
+				<!--
+				<td class="additionalTd"><input value="g" onclick="handleButton('g')" type="button"></td>
+				<td class="additionalTd"><input value="kg" onclick="handleButton('kg')" type="button"></td>
+				<td class="additionalTd"><input value="t" onclick="handleButton('t')" type="button"></td>
+			-->
+				<td><input value="7" onclick="handleButton('7')" type="button"></td>
+				<td><input value="8" onclick="handleButton('8')" type="button"></td>
+				<td><input value="9" onclick="handleButton('9')" type="button"></td>
+				<td><input value="*" onclick="handleButton('*')" type="button"></td>
+			</tr>
+			<tr>
+				<!--
+				<td class="additionalTd"><input value="cm" onclick="handleButton('cm')" type="button"></td>
+				<td class="additionalTd"><input value="m" onclick="handleButton('m')" type="button"></td>
+				<td class="additionalTd"><input value="km" onclick="handleButton('km')" type="button"></td>
+			-->
+				<td><input value="4" onclick="handleButton('4')" type="button"></td>
+				<td><input value="5" onclick="handleButton('5')" type="button"></td>
+				<td><input value="6" onclick="handleButton('6')" type="button"></td>
+				<td><input value="+" onclick="handleButton('+')" type="button"></td>
+			</tr>
+			<tr>
+				<!--
+				<td class="additionalTd"><input value="cmBI" onclick="handleButton('cm2')" type="button"></td>
+				<td class="additionalTd"><input value="kmBI" onclick="handleButton('km2')" type="button"></td>
+				<td class="additionalTd"><input value="mBI" onclick="handleButton('m2')" type="button"></td>
+			-->
+				<td><input value="1" onclick="handleButton('1')" type="button"></td>
+				<td><input value="2" onclick="handleButton('2')" type="button"></td>
+				<td><input value="3" onclick="handleButton('3')" type="button"></td>
+				<td><input value="-" onclick="minus()" type="button"></td>
+			</tr>
+			<tr>
+				<!--
+				<td class="additionalTd"><input value="ha" onclick="handleButton('ha')" type="button"></td>
+				<td class="additionalTd"><input value="Copy" onclick="handleButton('copy')" type="button"></td>
+				<td class="additionalTd"><input value="Paste" onclick="handleButton('paste')" type="button"></td>
+			-->
+				<td colspan="2"><input value="0" onclick="handleButton('0')" type="button"></td>
+				<td><input value="." onclick="handleButton('.')" type="button"></td>
+				<td><input value="=" onclick="handleButton('=')" type="button"></td>
+			</tr>
+			<!--<tr class="additionalTr">
+				<td class="additionalTd"><input value="BIN" onclick="handleButton('binary')" type="button"></td>
+				<td class="additionalTd"><input value="DEX" onclick="handleButton('decimal')" type="button"></td>
+				<td class="additionalTd"><input value="HEX" onclick="handleButton('hexadecimal')" type="button"></td>
+				<td class="additionalTd"><input value="MR" onclick="handleButton('MR')" type="button"></td>
+				<td class="additionalTd"><input value="MC" onclick="handleButton('MC')" type="button"></td>
+				<td class="additionalTd"><input value="M+" onclick="handleButton('M+')" type="button"></td>
+				<td class="additionalTd"><input value="M-" onclick="handleButton('M-')" type="button"></td>
+			</tr>-->
+		</table>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/animation.js"></script>
+	<script src="js/script.js"></script>
+
+	<footer>
+		<p>Created by mtjupa`s team</p>
+		<p>Participants: Tjupa Maxim and Kovalov Yevhen</p>
+	</footer>
+</body>
+
+</html>
+
